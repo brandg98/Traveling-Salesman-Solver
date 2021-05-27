@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/CityMap.gd" type="Script" id=1]
+
+[node name="CityMap" type="ColorRect"]
+margin_right = 600.0
+margin_bottom = 600.0
+mouse_filter = 2
+color = Color( 0.513726, 0.513726, 0.513726, 1 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EdgeHolder" type="Control" parent="."]
+margin_right = 600.0
+margin_bottom = 600.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CityHolder" type="Control" parent="."]
+margin_right = 600.0
+margin_bottom = 600.0
+mouse_filter = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
